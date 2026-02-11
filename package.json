@@ -1,0 +1,13 @@
+{
+  "name": "lecture-feedback-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time emoji-based lecture feedback app (React + Express + Socket.io)",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
